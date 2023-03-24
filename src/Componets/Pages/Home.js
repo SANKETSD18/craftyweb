@@ -5,13 +5,14 @@ import Footer from '../Footer';
 import HomeImg from '../HomeImg';
 
 
+
 const Home = () => {
   return (
 
     <>
       <HomeImg/>
       <div class="container-fluid my-2">
-        {/* <Slider/> */}
+     
         <div class="d-flex flex-wrap justify-content-around">
 
           <Homecard img="https://cdn.pixabay.com/photo/2015/11/05/22/31/sneakers-1024972_960_720.jpg"

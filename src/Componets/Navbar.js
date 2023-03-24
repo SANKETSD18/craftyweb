@@ -11,9 +11,7 @@ function Header() {
     <>
       <Navbar bg="light" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="/">
-            <img   src="https://cdn-icons-png.flaticon.com/512/743/743007.png" alt="" width="30" height="25" /> 
-            </Navbar.Brand>
+        <Nav.Link href="/"> <img   src="https://cdn-icons-png.flaticon.com/512/743/743007.png" alt="" width="30" height="25" /> </Nav.Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav

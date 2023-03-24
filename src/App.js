@@ -1,7 +1,7 @@
 // rafc
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './Componets/Navbar';
 import Home from './Componets/Pages/Home';
 import Shoes from './Componets/Pages/Shoes';
@@ -14,19 +14,18 @@ const App = () => {
 
   return (
 
-    <BrowserRouter>
+    <>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}> </Route>
-        <Route path='/Shoes' element={<Shoes />}>  </Route>
-          <Route path='/Watches' element={<Watches />}>  </Route>
-          <Route path='/Laptop' element={<Laptop />}>  </Route>
-
-
+        <Route path='/craftyweb' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/Shoes' element={<Shoes />} />
+        <Route exact path='/Watches' element={<Watches />} />
+        <Route exact path='/Laptop' element={<Laptop />}  />
       </Routes>
-    </BrowserRouter>
 
 
+    </>
 
   );
 }
