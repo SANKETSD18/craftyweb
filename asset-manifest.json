@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ecom/static/css/main.7cdde2f1.css",
-    "main.js": "/ecom/static/js/main.4e4ef806.js",
-    "static/js/787.44feb4c4.chunk.js": "/ecom/static/js/787.44feb4c4.chunk.js",
-    "index.html": "/ecom/index.html",
-    "main.7cdde2f1.css.map": "/ecom/static/css/main.7cdde2f1.css.map",
-    "main.4e4ef806.js.map": "/ecom/static/js/main.4e4ef806.js.map",
-    "787.44feb4c4.chunk.js.map": "/ecom/static/js/787.44feb4c4.chunk.js.map"
+    "main.css": "/craftyweb/static/css/main.7cdde2f1.css",
+    "main.js": "/craftyweb/static/js/main.1b6c3fbb.js",
+    "static/js/787.44feb4c4.chunk.js": "/craftyweb/static/js/787.44feb4c4.chunk.js",
+    "index.html": "/craftyweb/index.html",
+    "main.7cdde2f1.css.map": "/craftyweb/static/css/main.7cdde2f1.css.map",
+    "main.1b6c3fbb.js.map": "/craftyweb/static/js/main.1b6c3fbb.js.map",
+    "787.44feb4c4.chunk.js.map": "/craftyweb/static/js/787.44feb4c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cdde2f1.css",
-    "static/js/main.4e4ef806.js"
+    "static/js/main.1b6c3fbb.js"
   ]
 }
